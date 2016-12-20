@@ -8,10 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    let classes : Array<AnyObject> = [MagicFirst.init(),PresentFirst.init(),CommonFirst.init()]
+    let titles : Array<String> = ["Magic","Present","PageCover"]
+    
+    @IBAction func pushAction(_ sender: AnyObject) {
+        let vc : UIViewController = classes[sender.tag] as! UIViewController
+        vc.view.backgroundColor = UIColor.white
+        vc.title = titles[sender.tag]
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Menu"
         // Do any additional setup after loading the view, typically from a nib.
     }
 

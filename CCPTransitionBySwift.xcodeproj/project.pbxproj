@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E6A83CA1DF55EDC00159402 /* PanTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6A83C91DF55EDC00159402 /* PanTransition.swift */; };
+		7E9A253D1E04D9170041AD15 /* presentImg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7E9A253C1E04D9170041AD15 /* presentImg.jpeg */; };
+		7EE6D89B1E03D1D60058AA89 /* PresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6D89A1E03D1D60058AA89 /* PresentTransition.swift */; };
+		7EE6D89F1E03DD250058AA89 /* PresentSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6D89E1E03DD250058AA89 /* PresentSecond.swift */; };
+		7EE6D8A11E03DD3C0058AA89 /* PresentFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE6D8A01E03DD3C0058AA89 /* PresentFirst.swift */; };
 		7EF8ECA31DF15DF00098F4CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8ECA21DF15DF00098F4CC /* AppDelegate.swift */; };
 		7EF8ECA51DF15DF00098F4CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8ECA41DF15DF00098F4CC /* ViewController.swift */; };
 		7EF8ECA81DF15DF00098F4CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF8ECA61DF15DF00098F4CC /* Main.storyboard */; };
 		7EF8ECAA1DF15DF00098F4CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF8ECA91DF15DF00098F4CC /* Assets.xcassets */; };
 		7EF8ECAD1DF15DF00098F4CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF8ECAB1DF15DF00098F4CC /* LaunchScreen.storyboard */; };
+		7EF8ECB51DF162C80098F4CC /* MagicFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8ECB41DF162C80098F4CC /* MagicFirst.swift */; };
+		7EF8ECB71DF162DD0098F4CC /* MagicSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8ECB61DF162DD0098F4CC /* MagicSecond.swift */; };
+		7EF8ECB91DF163020098F4CC /* CommonFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8ECB81DF163020098F4CC /* CommonFirst.swift */; };
+		7EF8ECBB1DF1631C0098F4CC /* CommonSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8ECBA1DF1631C0098F4CC /* CommonSecond.swift */; };
+		7EF8ECBD1DF163300098F4CC /* MagicTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8ECBC1DF163300098F4CC /* MagicTransition.swift */; };
+		7EF8ECBF1DF1633D0098F4CC /* CommonTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8ECBE1DF1633D0098F4CC /* CommonTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E6A83C91DF55EDC00159402 /* PanTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanTransition.swift; sourceTree = "<group>"; };
+		7E9A253C1E04D9170041AD15 /* presentImg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = presentImg.jpeg; sourceTree = "<group>"; };
+		7EE6D89A1E03D1D60058AA89 /* PresentTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentTransition.swift; sourceTree = "<group>"; };
+		7EE6D89E1E03DD250058AA89 /* PresentSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentSecond.swift; sourceTree = "<group>"; };
+		7EE6D8A01E03DD3C0058AA89 /* PresentFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentFirst.swift; sourceTree = "<group>"; };
 		7EF8EC9F1DF15DF00098F4CC /* CCPTransitionBySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCPTransitionBySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF8ECA21DF15DF00098F4CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EF8ECA41DF15DF00098F4CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,12 @@
 		7EF8ECA91DF15DF00098F4CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF8ECAC1DF15DF00098F4CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF8ECAE1DF15DF00098F4CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF8ECB41DF162C80098F4CC /* MagicFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicFirst.swift; sourceTree = "<group>"; };
+		7EF8ECB61DF162DD0098F4CC /* MagicSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicSecond.swift; sourceTree = "<group>"; };
+		7EF8ECB81DF163020098F4CC /* CommonFirst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonFirst.swift; sourceTree = "<group>"; };
+		7EF8ECBA1DF1631C0098F4CC /* CommonSecond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonSecond.swift; sourceTree = "<group>"; };
+		7EF8ECBC1DF163300098F4CC /* MagicTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagicTransition.swift; sourceTree = "<group>"; };
+		7EF8ECBE1DF1633D0098F4CC /* CommonTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EE6D8981E03D13F0058AA89 /* Magic */ = {
+			isa = PBXGroup;
+			children = (
+				7EF8ECBC1DF163300098F4CC /* MagicTransition.swift */,
+				7EF8ECB61DF162DD0098F4CC /* MagicSecond.swift */,
+				7EF8ECB41DF162C80098F4CC /* MagicFirst.swift */,
+			);
+			name = Magic;
+			sourceTree = "<group>";
+		};
+		7EE6D8991E03D16F0058AA89 /* present */ = {
+			isa = PBXGroup;
+			children = (
+				7EE6D89A1E03D1D60058AA89 /* PresentTransition.swift */,
+				7EE6D8A01E03DD3C0058AA89 /* PresentFirst.swift */,
+				7EE6D89E1E03DD250058AA89 /* PresentSecond.swift */,
+			);
+			name = present;
+			sourceTree = "<group>";
+		};
 		7EF8EC961DF15DF00098F4CC = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +96,19 @@
 		7EF8ECA11DF15DF00098F4CC /* CCPTransitionBySwift */ = {
 			isa = PBXGroup;
 			children = (
+				7EE6D8991E03D16F0058AA89 /* present */,
+				7EE6D8981E03D13F0058AA89 /* Magic */,
 				7EF8ECA21DF15DF00098F4CC /* AppDelegate.swift */,
+				7E6A83C91DF55EDC00159402 /* PanTransition.swift */,
 				7EF8ECA41DF15DF00098F4CC /* ViewController.swift */,
+				7EF8ECB81DF163020098F4CC /* CommonFirst.swift */,
+				7EF8ECBA1DF1631C0098F4CC /* CommonSecond.swift */,
+				7EF8ECBE1DF1633D0098F4CC /* CommonTransition.swift */,
 				7EF8ECA61DF15DF00098F4CC /* Main.storyboard */,
 				7EF8ECA91DF15DF00098F4CC /* Assets.xcassets */,
 				7EF8ECAB1DF15DF00098F4CC /* LaunchScreen.storyboard */,
 				7EF8ECAE1DF15DF00098F4CC /* Info.plist */,
+				7E9A253C1E04D9170041AD15 /* presentImg.jpeg */,
 			);
 			path = CCPTransitionBySwift;
 			sourceTree = "<group>";
@@ -127,6 +176,7 @@
 				7EF8ECAD1DF15DF00098F4CC /* LaunchScreen.storyboard in Resources */,
 				7EF8ECAA1DF15DF00098F4CC /* Assets.xcassets in Resources */,
 				7EF8ECA81DF15DF00098F4CC /* Main.storyboard in Resources */,
+				7E9A253D1E04D9170041AD15 /* presentImg.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +187,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF8ECBB1DF1631C0098F4CC /* CommonSecond.swift in Sources */,
+				7EF8ECB51DF162C80098F4CC /* MagicFirst.swift in Sources */,
+				7EE6D89B1E03D1D60058AA89 /* PresentTransition.swift in Sources */,
+				7EF8ECBD1DF163300098F4CC /* MagicTransition.swift in Sources */,
+				7EF8ECB91DF163020098F4CC /* CommonFirst.swift in Sources */,
+				7E6A83CA1DF55EDC00159402 /* PanTransition.swift in Sources */,
+				7EE6D8A11E03DD3C0058AA89 /* PresentFirst.swift in Sources */,
+				7EE6D89F1E03DD250058AA89 /* PresentSecond.swift in Sources */,
+				7EF8ECB71DF162DD0098F4CC /* MagicSecond.swift in Sources */,
+				7EF8ECBF1DF1633D0098F4CC /* CommonTransition.swift in Sources */,
 				7EF8ECA51DF15DF00098F4CC /* ViewController.swift in Sources */,
 				7EF8ECA31DF15DF00098F4CC /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +360,7 @@
 				7EF8ECB31DF15DF00098F4CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
