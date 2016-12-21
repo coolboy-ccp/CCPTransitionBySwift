@@ -43,6 +43,14 @@
                                     <action selector="pushAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xwM-7s-S3Z"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ubp-aP-GIp">
+                                <state key="normal" title="ImagesView">
+                                    <color key="titleColor" red="0.82352941180000006" green="0.054901960780000002" blue="0.1058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pushAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UJT-Dh-Gje"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -51,6 +59,8 @@
                             <constraint firstItem="UIS-Ya-FPy" firstAttribute="top" secondItem="Im7-ah-cUx" secondAttribute="bottom" constant="30" id="OwB-OF-UL5"/>
                             <constraint firstItem="ubR-dp-YrA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rwl-uu-c9a"/>
                             <constraint firstItem="Im7-ah-cUx" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="84" id="mEx-Ce-2Nl"/>
+                            <constraint firstItem="Ubp-aP-GIp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nrC-pn-ZfO"/>
+                            <constraint firstItem="Ubp-aP-GIp" firstAttribute="top" secondItem="ubR-dp-YrA" secondAttribute="bottom" constant="30" id="vZl-aD-law"/>
                             <constraint firstItem="UIS-Ya-FPy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yoL-GH-oXI"/>
                         </constraints>
                     </view>
@@ -58,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="964" y="34.632683658170919"/>
+            <point key="canvasLocation" x="628" y="-97"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hnW-XB-EJy">

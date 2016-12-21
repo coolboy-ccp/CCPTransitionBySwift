@@ -29,7 +29,7 @@ enum TransitionType {
 
 class PanTransition: UIPercentDrivenInteractiveTransition {
     typealias gestureConfig = ()->Void
-    let pushConfig : gestureConfig? = nil
+    var pushConfig : gestureConfig? = nil
     var presentConfig : gestureConfig? = nil
     var direction : PanDirection = .left
     var type : TransitionType = .push
@@ -46,6 +46,11 @@ class PanTransition: UIPercentDrivenInteractiveTransition {
         let pan = UIPanGestureRecognizer.init(target: self, action: #selector(self.panAction(pan:)))
         self.vcontroller = vc;
         vc.view.addGestureRecognizer(pan)
+    }
+    
+    func addGestureWithView(av : UIView) {
+        let pan = UIPanGestureRecognizer.init(target: self, action: #selector(self.panAction(pan:)))
+        av.addGestureRecognizer(pan)
     }
 
     func panAction(pan : UIPanGestureRecognizer) {

@@ -10,8 +10,8 @@ import UIKit
 
 
 class ViewController: UIViewController {
-    let classes : Array<AnyObject> = [MagicFirst.init(),PresentFirst.init(),CommonFirst.init()]
-    let titles : Array<String> = ["Magic","Present","PageCover"]
+    let classes : Array<AnyObject> = [MagicFirst.init(),PresentFirst.init(),PageCoverFirst.init(),ImagesView.init()]
+    let titles : Array<String> = ["Magic","Present","PageCover","ImagesView"]
     
     @IBAction func pushAction(_ sender: AnyObject) {
         let vc : UIViewController = classes[sender.tag] as! UIViewController
